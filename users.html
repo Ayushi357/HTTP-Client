@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>API</title>
+
+<style>
+th, td {
+    padding: 5px;
+}
+</style>
+
+</head>
+<body>
+
+    <h1>Users</h1>
+    <table border="1">
+        <tr>
+            <th>AcmeApiId</th>
+            <th>UserName</th>
+            <th>Source ISP</th>
+            <th>Target</th>
+            <th>Action</th>
+            <th>Event Time</th>
+        </tr>
+        {{range .}}
+        <tr>
+            <td>{{.ID}}</td>
+            <td>{{.UserName}}</td>
+            <td>{{.Ips}}</td>
+            <td>{{.Target}}</td>
+            <td>{{.EVENT0ACTION}}</td>
+            <td>{{.DateTimeAndStuff}}</td>
+        </tr>
+        {{end}}
+    </table>
+
+</body>
+</html>
