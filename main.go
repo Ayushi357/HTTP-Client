@@ -44,8 +44,7 @@ func main() {
 
 } // end func main
 
-
-
+//***************************************************************************************************
 
 /* ... This function makes a GET request to /auth and returns a Authentication
 token.
