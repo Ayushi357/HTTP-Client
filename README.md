@@ -1,4 +1,4 @@
-# HTTP-Client-
+# HTTP-Client
 What this app does:
 
 - HTTP client that request and normalizes user log entries from an API, then creates a client-side visualization of the data. 
